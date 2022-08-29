@@ -4,7 +4,7 @@
 Rewards Service is an application which holds Customer data along with the transaction history and returns reward points for transactions made by customer in a specific month or in total.
 
 ##### API Design
-```[{schema}://{host}/api/v1/rewards?customerId={customerId}&monthOfPurchase={monthOfPurchase}]```
+```[http://localhost:8080/api/v1/rewards?customerId={customerId}&monthOfPurchase={monthOfPurchase}]```
 
 customerId : ID of the customer  
 monthOfPurchase : Month of Year / "total"  
